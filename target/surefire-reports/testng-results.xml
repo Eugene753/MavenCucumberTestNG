@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="83390" started-at="2021-08-10T13:51:40 EDT" finished-at="2021-08-10T13:53:03 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test 1" duration-ms="83390" started-at="2021-08-10T13:51:40 EDT" finished-at="2021-08-10T13:53:03 EDT">
+      <class name="Runners.SmokeRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runners.SmokeRunner@7a765367]" name="setUpClass" is-config="true" duration-ms="386" started-at="2021-08-10T13:51:40 EDT" finished-at="2021-08-10T13:51:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="43840" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new job title as Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add New Job Title]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="52761" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding employee from add employee page via feature file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="62237" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding employee from add employee page via feature file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="55140" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding employee from add employee page via feature file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="26034" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Dashboard tab verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Dashboard tab functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="49856" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search employee by id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Employee Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="36287" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding employee from add employee page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="56098" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding employee from add employee page via feature file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="30279" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search employee by name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Employee Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="76319" started-at="2021-08-10T13:51:40 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:57 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding multiple employees in a single execution"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="25973" started-at="2021-08-10T13:52:06 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:32 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["valid admin login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="26049" started-at="2021-08-10T13:52:10 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["valid ess employee login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="18730" started-at="2021-08-10T13:52:16 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="16845" started-at="2021-08-10T13:52:24 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="11550" started-at="2021-08-10T13:52:30 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="9965" started-at="2021-08-10T13:52:32 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="7987" started-at="2021-08-10T13:52:33 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with multiple username and password combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="8031" started-at="2021-08-10T13:52:35 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with multiple username and password combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="7752" started-at="2021-08-10T13:52:35 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with multiple username and password combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="6857" started-at="2021-08-10T13:52:36 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:52:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with multiple username and password combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.SmokeRunner@7a765367]" name="runScenario" duration-ms="26445" started-at="2021-08-10T13:52:37 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T13:53:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select employee from employee list and modify personal details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Modify Employee]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners.SmokeRunner@7a765367]" name="tearDownClass" is-config="true" duration-ms="202" started-at="2021-08-10T13:53:03 EDT" finished-at="2021-08-10T13:53:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners.SmokeRunner -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

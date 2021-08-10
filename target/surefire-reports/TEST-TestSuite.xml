@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="83.981" tests="21" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\imark\.m2\repository\webdriver\chromedriver\win32\92.0.4515.107\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\imark\Desktop\User2\hrms4Cucumber-TestNG\target\test-classes;C:\Users\imark\Desktop\User2\hrms4Cucumber-TestNG\target\classes;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\imark\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\imark\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\imark\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\imark\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\imark\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\imark\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\imark\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\imark\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\imark\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\imark\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\imark\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\imark\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\imark\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\imark\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\imark\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\imark\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\imark\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\imark\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\imark\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\imark\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\imark\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\imark\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\imark\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\imark\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\imark\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\imark\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\imark\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\imark\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\imark\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\imark\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\imark\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\imark\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\imark\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\imark\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\imark\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\imark\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\imark\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\imark\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\imark\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\imark\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\imark\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\imark\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\imark\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\imark\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\imark\.m2\repository\org\json\json\20160810\json-20160810.jar;C:\Users\imark\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\imark\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\imark\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\imark\AppData\Local\Temp\surefire2606057666643177036\surefirebooter8302530138431663142.jar C:\Users\imark\AppData\Local\Temp\surefire2606057666643177036 2021-08-10T13-51-38_991-jvmRun1 surefire3068978268460684491tmp surefire_05500530034520344344tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\imark\Desktop\User2\hrms4Cucumber-TestNG\target\test-classes;C:\Users\imark\Desktop\User2\hrms4Cucumber-TestNG\target\classes;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\imark\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\imark\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\imark\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\imark\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\imark\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\imark\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\imark\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\imark\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\imark\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\imark\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\imark\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\imark\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\imark\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\imark\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\imark\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\imark\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\imark\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\imark\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\imark\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\imark\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\imark\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\imark\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\imark\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\imark\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\imark\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\imark\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\imark\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\imark\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\imark\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\imark\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\imark\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\imark\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\imark\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\imark\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\imark\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\imark\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\imark\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\imark\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\imark\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\imark\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\imark\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\imark\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\imark\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\imark\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\imark\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\imark\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\imark\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\imark\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\imark\.m2\repository\org\json\json\20160810\json-20160810.jar;C:\Users\imark\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\imark\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\imark\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\imark"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="basedir" value="C:\Users\imark\Desktop\User2\hrms4Cucumber-TestNG"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\imark\AppData\Local\Temp\surefire2606057666643177036\surefirebooter8302530138431663142.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="imark"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\imark\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\imark\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.1"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="C:\Users\imark\Desktop\User2\hrms4Cucumber-TestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\imark\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\apache-maven\apache-maven-3.8.1\bin;C:\Installed programs\Python 3.9\Scripts\;C:\Installed programs\Python 3.9\;C:\Installed programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;;C:\Users\imark\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Dashboard tab verification&quot;, &quot;Optional[Dashboard tab functionality]&quot;](1)" classname="Runners.SmokeRunner" time="26.049">
+    <system-out><![CDATA[
+@jobtitle
+Scenario: Adding new job title as Admin                       # src/test/resources/features/AddNewJobTitle.feature:4
+
+@datatablewithheader
+Scenario: Adding multiple employees in a single execution            # src/test/resources/features/AddEmployee.feature:33
+
+@smoke
+Scenario: Search employee by id                      # src/test/resources/features/EmployeeSearch.feature:8
+
+@smoke
+Scenario: Adding employee from add employee page     # src/test/resources/features/AddEmployee.feature:8
+
+@dashboardtabs
+Scenario: Dashboard tab verification                 # src/test/resources/features/Dashboard.feature:6
+
+@smoke
+Scenario: Search employee by name                    # src/test/resources/features/EmployeeSearch.feature:14
+
+@example
+Scenario Outline: Adding employee from add employee page via feature file # src/test/resources/features/AddEmployee.feature:30
+
+@example
+Scenario Outline: Adding employee from add employee page via feature file # src/test/resources/features/AddEmployee.feature:29
+
+@example
+Scenario Outline: Adding employee from add employee page via feature file # src/test/resources/features/AddEmployee.feature:28
+
+@smoke
+Scenario: Adding employee from add employee page via feature file                # src/test/resources/features/AddEmployee.feature:14
+  When user enters valid admin username and password # steps.loginSteps.user_enters_valid_admin_username_and_password()
+  And user is logged in with valid admin credentials # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  And user is logged in with valid admin credentials                      # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  And user click on login button                     # steps.loginSteps.user_click_on_login_button()
+  And user is logged in with valid admin credentials                      # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  And user is logged in with valid admin credentials # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  Then admin user is successfully logged in          # steps.loginSteps.admin_user_is_successfully_logged_in()
+  And user navigates to employee list page           # steps.EmployeeSearchSteps.user_navigates_to_employee_list_page()
+[Admin, PIM, Leave, Time, Recruitment, Performance, Dashboard, Directory]
+[Admin, PIM, Leave, Time, Recruitment, Performance, Dashboard, Directory]
+My test case is passed
+  Then verify the following tabs on dashboard        # steps.DashboardSteps.verify_the_following_tabs_on_dashboard(io.cucumber.datatable.DataTable)
+  When user enters valid employee id                 # steps.EmployeeSearchSteps.user_enters_valid_employee_id()
+  When user is logged in with valid admin credentials         # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+
+    Embedding Dashboard tab verification [image/png 69146 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 15563
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+SSttaarrttiinng Chgr oCmehDrroivmere 9D2.r0.i4515.v1e0r7  9(2.807.a4851185b.11C005h75r o3(m8ae7D0ra78i41384vbee1a9r0e 525wb3a6ads0c 7cs4ft3a3r4ctebedea 79s8ue29cb5c61ed3scs4fc-ufl3lryce.bfs
+e/b7r8a9ncS51t3ha-4r-htrieenafgds s/C/bh4rr5ao1nm5ce@h{D-#rh1ie6va3ed4rs} /)94 25o.1n05 .p@4o{r5t#1 153.62120747 3
+(4O8n}7l)ay8  1lo8obnc1 a0p5ol5r 3ta c03o76n45n3e47ce2taio
+9nOesn2l bya6 drlceco fca3alcll obcweoe7dn.8n9
+5eP1lc3e4at-sreie fosse/neb srah tntcaphs-r:h/eea/ dcsah/rl4o5ml1e5do@rw{i#ve1e6dr3.4.c})h
+ roPonm lipueomra.tos rge1/ s1esc5ue3rei6 tyh-tc
+tonOpsnsidl:eyr/ a/tlcoihocrnaoslm f eocdr orsniugnvgeeesrtci.tocinhso rnoonsm  kiaeuremep i.naogl rClghro/omsweeDercdiu.vreir
+t sPyafl-ee.cao
+snes isdeeer hattitopnss: /f/ocrh rsoumggeedstriiovners. cohnr okmeieupmi.nogr gC/shercoumreiDtry-icveorns isdaefrea.tio
+ns for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 8487
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 36856
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 37182
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9eC2hbr6odmcecDfr3icvbeer7 w8a9s5 1sta3r4t-edr esfusc/cbersasnCfcuhlh-lhryeo.amd
+se/D4r51i5v@e{#r1 6w3a4})s  sont aported successfurltl y21.24
+5
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/451Starting ChromeDriver 92.50@.{4#5116534.}1) 0o7n (87a818b10553a0 7p4o3r4te a498e820b6
+dOcnclfy3 clboec7a8l9 5c1on3n4e-crteifosn/sb raarnec h-ahlelaodwse/d4.51
+5P@l{e#a1s6Ce3h 4rs}e)oe m oehnDt rtpipovsr:te/ r/1 c7wh1ar3so 
+msOendtlrayir vlteoerc.dac lh srcuoocmncineuesmcs.tfoiuorlngls/y s.aerc
+eur iatlyl-ocwoends.id
+ePrlaetaisoen ss efe ohrt tspusg:g/e/scthiroonmse dorni vkeere.pcihnrgo mCihurmo.morge/Drsievcurity-consideraetiro nssa ffeo.r 
+suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started sucCchersosmfeuDlrliyv.er
+ was started successfully.
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:51:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search employee by name&quot;, &quot;Optional[Employee Search]&quot;](2)" classname="Runners.SmokeRunner" time="4.23">
+    <system-out><![CDATA[
+@mvn
+Scenario: valid admin login                          # src/test/resources/features/Login.feature:4
+  And click on search button                         # steps.EmployeeSearchSteps.click_on_search_button()
+Employee name is displayed
+  Then user see employee information is displayed    # steps.EmployeeSearchSteps.user_see_employee_information_is_displayed()
+
+    Embedding Search employee by name [image/png 67831 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 33290
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding employee from add employee page&quot;, &quot;Optional[Adding employees]&quot;](3)" classname="Runners.SmokeRunner" time="6.007">
+    <system-out><![CDATA[
+@simpletag
+Scenario: valid ess employee login                 # src/test/resources/features/Login.feature:10
+  When user click on PIM option                      # steps.AddEmployeeSteps.user_click_on_pim_option()
+  Then user click on Admin button                             # steps.AddNewJobTitleSteps.user_click_on_admin_button()
+  And user click on Add employee button              # steps.AddEmployeeSteps.user_click_on_add_employee_button()
+  And user enters firstname middlename and lastname  # steps.AddEmployeeSteps.user_enters_firstname_middlename_and_lastname()
+  And user is logged in with valid admin credentials # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  And user click on save button option               # steps.AddEmployeeSteps.user_click_on_save_button_option()
+Employee Added Successfully
+  Then employee added successfully                   # steps.AddEmployeeSteps.employee_added_successfully()
+
+    Embedding Adding employee from add employee page [image/png 114085 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 44639
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding new job title as Admin&quot;, &quot;Optional[Add New Job Title]&quot;](4)" classname="Runners.SmokeRunner" time="7.559">
+    <system-out><![CDATA[
+@regression
+Scenario: login with valid username and invalid password # src/test/resources/features/Login.feature:16
+  When user click on PIM option                                           # steps.AddEmployeeSteps.user_click_on_pim_option()
+  And user is logged in with valid admin credentials                 # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  When user click on PIM option                                      # steps.AddEmployeeSteps.user_click_on_pim_option()
+  And user click on Add employee button                                   # steps.AddEmployeeSteps.user_click_on_add_employee_button()
+  And user enters "Test32320" "MS" and "Test5451" in the application      # steps.AddEmployeeSteps.user_enters_and_in_the_application(java.lang.String,java.lang.String,java.lang.String)
+  When user click on PIM option                                           # steps.AddEmployeeSteps.user_click_on_pim_option()
+  Then user click on Job title button                         # steps.AddNewJobTitleSteps.user_click_on_job_title_button()
+  And user click on Add employee button                              # steps.AddEmployeeSteps.user_click_on_add_employee_button()
+John0404 MS US
+  And user is logged in with valid admin credentials                      # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  And user is logged in with valid admin credentials                             # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  When user enters valid admin username and password # steps.loginSteps.user_enters_valid_admin_username_and_password()
+  And user click on Add button                                # steps.AddNewJobTitleSteps.user_click_on_add_button()
+  When user add job title, job description, note              # steps.AddNewJobTitleSteps.user_add_job_title_job_description_note()
+  Then user clicks on save button                             # steps.AddNewJobTitleSteps.user_clicks_on_save_button()
+  Then enter query into HRMS database                         # steps.DbSteps.enter_query_into_hrms_database()
+Frontend
+New Job Title: Data Analyst
+New Job Description: Collection data and analysing collected data
+New Job Note: Check if data was added
+Backend
+New Job Title: Data Analyst
+New Job Description: Collection data and analysing collected data
+New Job Note: Check if data was added
+  And checks if information added from front end and back end # steps.AddNewJobTitleSteps.checks_if_information_added_from_front_end_and_back_end()
+  And user navigates to employee list page           # steps.EmployeeSearchSteps.user_navigates_to_employee_list_page()
+
+    Embedding Adding new job title as Admin [image/png 65677 bytes]
+
+  When user enters valid employee id                 # steps.EmployeeSearchSteps.user_enters_valid_employee_id()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 15211
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search employee by id&quot;, &quot;Optional[Employee Search]&quot;](5)" classname="Runners.SmokeRunner" time="6.01">
+    <system-out><![CDATA[
+@example
+Scenario Outline: login with multiple data   # src/test/resources/features/Login.feature:29
+  And user click on Add employee button                                   # steps.AddEmployeeSteps.user_click_on_add_employee_button()
+  And user enters "Test12125" "MS" and "Test7655" in the application      # steps.AddEmployeeSteps.user_enters_and_in_the_application(java.lang.String,java.lang.String,java.lang.String)
+  And click on search button                         # steps.EmployeeSearchSteps.click_on_search_button()
+Employee name is displayed
+  Then user see employee information is displayed    # steps.EmployeeSearchSteps.user_see_employee_information_is_displayed()
+
+    Embedding Search employee by id [image/png 67831 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 17399
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;valid admin login&quot;, &quot;Optional[Login]&quot;](6)" classname="Runners.SmokeRunner" time="2.154">
+    <system-out><![CDATA[
+@example
+Scenario Outline: login with multiple data                # src/test/resources/features/Login.feature:30
+  And user click on login button                     # steps.loginSteps.user_click_on_login_button()
+  Then admin user is successfully logged in          # steps.loginSteps.admin_user_is_successfully_logged_in()
+  When user enters valid ess username and password # steps.loginSteps.user_enters_valid_ess_username_and_password()
+
+    Embedding valid admin login [image/png 55278 bytes]
+
+  When user click on PIM option                                                  # steps.AddEmployeeSteps.user_click_on_pim_option()
+  And user click on save button option                                    # steps.AddEmployeeSteps.user_click_on_save_button_option()
+Employee Added Successfully
+  Then employee added successfully                                        # steps.AddEmployeeSteps.employee_added_successfully()
+Jack MS US
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 27771
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding employee from add employee page via feature file&quot;, &quot;Optional[Adding employees]&quot;](7)" classname="Runners.SmokeRunner" time="0.752">
+    <system-out><![CDATA[
+@error
+Scenario: Login with valid username and invalid password                    # src/test/resources/features/Login.feature:33
+
+    Embedding Adding employee from add employee page via feature file [image/png 115641 bytes]
+
+  And user click on Add employee button                                          # steps.AddEmployeeSteps.user_click_on_add_employee_button()
+  When user enters valid username and invalid password   # steps.loginSteps.user_enters_valid_username_and_invalid_password()
+  And user enters first name "Yulia123" middle name "MS" and lastname "Yulia456" # steps.AddEmployeeSteps.user_enters_first_name_middle_name_and_lastname(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 34177
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;login with valid username and invalid password&quot;, &quot;Optional[Login]&quot;](8)" classname="Runners.SmokeRunner" time="2.265">
+    <system-out><![CDATA[
+@errorvalidation
+Scenario Outline: Login with multiple username and password combinations                                        # src/test/resources/features/Login.feature:44
+  And user click on login button                         # steps.loginSteps.user_click_on_login_button()
+Error message is displayed
+  Then user see invalid credentials text on login page   # steps.loginSteps.user_see_invalid_credentials_text_on_login_page()
+  And user click on save button option                                           # steps.AddEmployeeSteps.user_click_on_save_button_option()
+Employee Added Successfully
+  Then employee added successfully                                               # steps.AddEmployeeSteps.employee_added_successfully()
+
+    Embedding login with valid username and invalid password [image/png 83730 bytes]
+
+
+    Embedding Adding employee from add employee page via feature file [image/png 64282 bytes]
+
+  When user click on PIM option                                           # steps.AddEmployeeSteps.user_click_on_pim_option()
+  And user click on save button option                                    # steps.AddEmployeeSteps.user_click_on_save_button_option()
+Employee Added Successfully
+  Then employee added successfully                                        # steps.AddEmployeeSteps.employee_added_successfully()
+  And user click on login button                   # steps.loginSteps.user_click_on_login_button()
+  Then ess user is successfully logged in          # steps.loginSteps.ess_user_is_successfully_logged_in()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 35380
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:52:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding employee from add employee page via feature file&quot;, &quot;Optional[Adding employees]&quot;](9)" classname="Runners.SmokeRunner" time="0.112">
+    <system-out><![CDATA[
+@errorvalidation
+Scenario Outline: Login with multiple username and password combinations                                          # src/test/resources/features/Login.feature:45
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 14073
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding employee from add employee page via feature file&quot;, &quot;Optional[Adding employees]&quot;](10)" classname="Runners.SmokeRunner" time="0.959">
+    <system-out><![CDATA[
+@errorvalidation
+Scenario Outline: Login with multiple username and password combinations                                   # src/test/resources/features/Login.feature:46
+  When user enters "Admin" and "Hum@nhrm123" # steps.loginSteps.user_enters_and(java.lang.String,java.lang.String)
+  And user click on Add employee button                                   # steps.AddEmployeeSteps.user_click_on_add_employee_button()
+
+    Embedding Adding employee from add employee page via feature file [image/png 115620 bytes]
+
+
+    Embedding valid ess employee login [image/png 50808 bytes]
+
+  And user enters "Test12347" "MS" and "Test9879" in the application      # steps.AddEmployeeSteps.user_enters_and_in_the_application(java.lang.String,java.lang.String,java.lang.String)
+Admin Human Invalid credentials
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 10335
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;valid ess employee login&quot;, &quot;Optional[Login]&quot;](11)" classname="Runners.SmokeRunner" time="0.231">
+    <system-out><![CDATA[
+@errorvalidation
+Scenario Outline: Login with multiple username and password combinations                                        # src/test/resources/features/Login.feature:47
+  When user enters "william1236000000" and "Syntax12!!!!" # steps.loginSteps.user_enters_and(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 47444
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;login with multiple data&quot;, &quot;Optional[Login]&quot;](12)" classname="Runners.SmokeRunner" time="4.357">
+    <system-out><![CDATA[
+@modifyemployee
+Scenario: Select employee from employee list and modify personal details # src/test/resources/features/ModifyDetailsOfTheEmployee.feature:4
+  And user click on login button             # steps.loginSteps.user_click_on_login_button()
+working fine
+  And "Admin" is successfully logged in      # steps.loginSteps.is_successfully_logged_in(java.lang.String)
+My test case is passed
+william1236000000 Syntax Invalid credentials
+  When user enters different "Admin" and "Syntax123!" and verify the "Invalid credentials" for all combinations # steps.loginSteps.user_enters_different_and_and_verify_the_for_all_combinations(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding login with multiple data [image/png 69159 bytes]
+
+
+    Embedding Login with multiple username and password combinations [image/png 83730 bytes]
+
+  And user click on login button                          # steps.loginSteps.user_click_on_login_button()
+working fine
+  And "William" is successfully logged in                 # steps.loginSteps.is_successfully_logged_in(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12744
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 1:52:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:52:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:52:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 1:52:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with multiple username and password combinations&quot;, &quot;Optional[Login]&quot;](13)" classname="Runners.SmokeRunner" time="4.416"/>
+  <testcase name="runScenario[&quot;login with multiple data&quot;, &quot;Optional[Login]&quot;](14)" classname="Runners.SmokeRunner" time="5.077">
+    <system-out><![CDATA[
+    Embedding login with multiple data [image/png 50911 bytes]
+
+My test case is passed
+  When user enters valid username and invalid password and verify the error # steps.loginSteps.user_enters_valid_username_and_invalid_password_and_verify_the_error(io.cucumber.datatable.DataTable)
+  And user click on save button option                                    # steps.AddEmployeeSteps.user_click_on_save_button_option()
+Employee Added Successfully
+  Then employee added successfully                                        # steps.AddEmployeeSteps.employee_added_successfully()
+
+    Embedding Login with valid username and invalid password [image/png 83730 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid username and invalid password&quot;, &quot;Optional[Login]&quot;](15)" classname="Runners.SmokeRunner" time="5.643">
+    <system-out><![CDATA[
+    Embedding Adding employee from add employee page via feature file [image/png 115726 bytes]
+
+  When user enters different "James" and "" and verify the "Password cannot be empty" for all combinations # steps.loginSteps.user_enters_different_and_and_verify_the_for_all_combinations(java.lang.String,java.lang.String,java.lang.String)
+  When user enters different "" and "Syntax123!" and verify the "Username cannot be empty" for all combinations # steps.loginSteps.user_enters_different_and_and_verify_the_for_all_combinations(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding employee from add employee page via feature file&quot;, &quot;Optional[Adding employees]&quot;](16)" classname="Runners.SmokeRunner" time="5.912">
+    <system-out><![CDATA[  When user enters different "abd77" and "Hum@nhrm123!" and verify the "Invalid credentials" for all combinations # steps.loginSteps.user_enters_different_and_and_verify_the_for_all_combinations(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with multiple username and password combinations&quot;, &quot;Optional[Login]&quot;](17)" classname="Runners.SmokeRunner" time="6.561">
+    <system-out><![CDATA[
+    Embedding Login with multiple username and password combinations [image/png 83162 bytes]
+
+
+    Embedding Login with multiple username and password combinations [image/png 82710 bytes]
+
+
+    Embedding Login with multiple username and password combinations [image/png 83730 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with multiple username and password combinations&quot;, &quot;Optional[Login]&quot;](18)" classname="Runners.SmokeRunner" time="6.623"/>
+  <testcase name="runScenario[&quot;Login with multiple username and password combinations&quot;, &quot;Optional[Login]&quot;](19)" classname="Runners.SmokeRunner" time="6.717"/>
+  <testcase name="runScenario[&quot;Adding multiple employees in a single execution&quot;, &quot;Optional[Adding employees]&quot;](20)" classname="Runners.SmokeRunner" time="19.99">
+    <system-out><![CDATA[MS0909 MS US
+  And user is logged in with valid admin credentials                     # steps.EmployeeSearchSteps.user_is_logged_in_with_valid_admin_credentials()
+  And user navigates to employee list page                               # steps.EmployeeSearchSteps.user_navigates_to_employee_list_page()
+  When user enter employee first name "Ievgenii"                         # steps.ModifyEmployeeTest.user_enter_employee_first_name(java.lang.String)
+  When add multiple employees and verify they are added successfully # steps.AddEmployeeSteps.add_multiple_employees_and_verify_they_are_added_successfully(io.cucumber.datatable.DataTable)
+
+    Embedding Adding multiple employees in a single execution [image/png 60842 bytes]
+
+  And click on search button                                             # steps.EmployeeSearchSteps.click_on_search_button()
+19320A Ievgenii Mirko Crocop Engeneer Employeed
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Select employee from employee list and modify personal details&quot;, &quot;Optional[Modify Employee]&quot;](21)" classname="Runners.SmokeRunner" time="26.443">
+    <system-out><![CDATA[  And user click on employee name from the employee list "Ievgenii"      # steps.ModifyEmployeeTest.user_click_on_employee_name_from_the_employee_list(java.lang.String)
+  When user click on edit button                                         # steps.ModifyEmployeeTest.user_click_on_edit_button()
+  And user change first name to "Ievgenii"                               # steps.ModifyEmployeeTest.user_change_first_name_to(java.lang.String)
+  And user enters license expiration date                                # steps.ModifyEmployeeTest.user_enters_license_expiration_date()
+  Then user click on save button                                         # steps.ModifyEmployeeTest.user_click_on_save_button()
+Test Passed
+  Then user verifies that employee name was changed                      # steps.ModifyEmployeeTest.user_verifies_that_employee_name_was_changed()
+
+    Embedding Select employee from employee list and modify personal details [image/png 118856 bytes]
+
+]]></system-out>
+  </testcase>
+</testsuite>
