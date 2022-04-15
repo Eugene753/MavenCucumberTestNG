@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 import pages.EmployeeListPage;
 import utils.CommonMethods;
 
@@ -91,7 +92,6 @@ public class ModifyEmployeeTest extends CommonMethods {
         String expectedText="Ievgenii Mirko Crocop";
         Assert.assertEquals(actualText,expectedText,"Values do not match");
         System.out.println("Test Passed");
-
     }
 }
 
